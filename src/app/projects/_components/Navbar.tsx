@@ -56,6 +56,11 @@ export default async function Navbar() {
             {
               // TODO: 7. Display user's name here
               // hint: line 14 of this file
+              <div className="flex items-center gap-2">
+                <h1 className="text-sm font-semibold">
+                  {session?.user?.name ?? "User"}
+                </h1>
+              </div>
               // TODO: 7. end
             }
           </span>
